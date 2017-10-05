@@ -3,7 +3,10 @@
     <div class="panel-heading">
       <h1 class="panel-title">Question</h1>
     </div>
-    <div class="panel-body">
+    <div class="panel-body" v-if="!start">
+      belum mulai
+    </div>
+    <div class="panel-body" v-else="start">
       <h2>Pertanyaan nya mengapa why selalu always?</h2>
       <a href="#" class="btn btn-default btn-lg btn-block">Option A</a>
       <a href="#" class="btn btn-default btn-lg btn-block">Option B</a>
@@ -15,6 +18,12 @@
 
 <script>
 export default {
+  props: ['pertanyaan'],
+  data () {
+    return {
+      start: true
+    }
+  }
 }
 </script>
 

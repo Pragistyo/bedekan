@@ -13,11 +13,6 @@ export default {
   components: {
     NavBar,
     MainBox
-  },
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
   }
 }
 </script>

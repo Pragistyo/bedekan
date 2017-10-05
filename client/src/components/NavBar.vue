@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="">
     <nav class="navbar navbar-default">
-      <h1 id="title">bedekan</h1>
+      <p id="title">bedekan</p>
     </nav>
   </div>
 </template>
@@ -17,4 +17,5 @@ export default {
   color: red;
   font-size: 3em;
 }
+
 </style>

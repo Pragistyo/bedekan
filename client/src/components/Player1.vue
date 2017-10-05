@@ -1,9 +1,11 @@
 <template lang="html">
   <div class="panel panel-warning">
   <div class="panel-heading">
-    <h3 class="panel-title">Player 1</h3>
+  <img src="../assets/avatar/003-boy.png" alt="player1"> 
+  <h3 class="panel-title">Player 1</h3>
   </div>
   <div class="panel-body">
+
     Score
   </div>
 </div>
