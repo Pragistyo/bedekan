@@ -1,0 +1,194 @@
+[
+	{
+		"_id": "59d61ec9117980188dbbd275",
+		"question": "ibukota Indonesia?",
+		"answer": "DKI Jakarta",
+		"__v": 0,
+		"choice": [
+			"semarang",
+			"Bandung",
+			"Surabaya",
+			"DKI Jakarta"
+		]
+	},
+	{
+		"_id": "59d61f6f117980188dbbd276",
+		"question": "Rumus Einstein yang terkenal",
+		"answer": "E = mc^2",
+		"__v": 0,
+		"choice": [
+			"E = mc^2",
+			"F = ma",
+			"F = mg",
+			"E = 1/2 mv^2"
+		]
+	},
+	{
+		"_id": "59d62042117980188dbbd277",
+		"question": "Rumus umum Energi Potensial",
+		"answer": "E = mgh",
+		"__v": 0,
+		"choice": [
+			"E = 1/2 kx^2",
+			"E = mgh",
+			"E = 1/2 pv^2",
+			"E = 1/2 mv^2"
+		]
+	},
+	{
+		"_id": "59d620b5117980188dbbd278",
+		"question": "The length of moon radius?",
+		"answer": "1.737 km",
+		"__v": 0,
+		"choice": [
+			"1.732 km",
+			"1.237 km",
+			"2.737 km",
+			"1.737 km"
+		]
+	},
+	{
+		"_id": "59d6211e117980188dbbd279",
+		"question": "Presiden RI yang pertama",
+		"answer": "Ir. Soekarno",
+		"__v": 0,
+		"choice": [
+			"H.M. Soeharto",
+			"Ir. BJ. Habibie",
+			"Ibu Megawati",
+			"Ir. Soekarno"
+		]
+	},
+	{
+		"_id": "59d621d0117980188dbbd27a",
+		"question": "Hewan karnivora",
+		"answer": "Kucing",
+		"__v": 0,
+		"choice": [
+			"Kuda",
+			"Kucing",
+			"Ayam",
+			"Ikan"
+		]
+	},
+	{
+		"_id": "59d6223f117980188dbbd27b",
+		"question": "Hewan herbivora",
+		"answer": "Sapi",
+		"__v": 0,
+		"choice": [
+			"Harimau",
+			"Buaya",
+			"Sapi",
+			"Singa"
+		]
+	},
+	{
+		"_id": "59d622a7117980188dbbd27c",
+		"question": "yang BUKAN alat transportasi darat",
+		"answer": "helikopter",
+		"__v": 0,
+		"choice": [
+			"sepeda motor",
+			"mobil",
+			"kereta",
+			"helikopter"
+		]
+	},
+	{
+		"_id": "59d62332117980188dbbd27d",
+		"question": "Sebutan lain sel darah merah",
+		"answer": "eritrosit",
+		"__v": 0,
+		"choice": [
+			"eritrosit",
+			"trombosit",
+			"leukosit",
+			"lipid"
+		]
+	},
+	{
+		"_id": "59d62487117980188dbbd27e",
+		"question": "orang tervaforit di hacktiv8 saat ini?",
+		"answer": "Jainal Restavara",
+		"__v": 0,
+		"choice": [
+			"Ismail",
+			"Jainal Restavara",
+			"Alex",
+			"zein"
+		]
+	},
+	{
+		"_id": "59d62720117980188dbbd27f",
+		"question": "Berikut ini terletak di jawa barat:",
+		"answer": "Bandung",
+		"__v": 0,
+		"choice": [
+			"Bandugn",
+			"Bandgn",
+			"Bandung",
+			"B4ndung"
+		]
+	},
+	{
+		"_id": "59d62780117980188dbbd280",
+		"question": "Ejaan dengan benar nama teman terfavorit kita",
+		"answer": "Jainal Restavara",
+		"__v": 0,
+		"choice": [
+			"Jainal Restvara",
+			"Jainal Rstavara",
+			"Jainal Restavara",
+			"Jainal Rest4vara"
+		]
+	},
+	{
+		"_id": "59d62a96117980188dbbd281",
+		"question": "14 + 117",
+		"answer": "131",
+		"__v": 0,
+		"choice": [
+			"17",
+			"1131",
+			"31",
+			"131"
+		]
+	},
+	{
+		"_id": "59d62ae0117980188dbbd282",
+		"question": "78 + 29 ?",
+		"answer": "107",
+		"__v": 0,
+		"choice": [
+			"97",
+			"87",
+			"107",
+			"92"
+		]
+	},
+	{
+		"_id": "59d62b9d117980188dbbd283",
+		"question": "Organisasi sepakbola indonesia?",
+		"answer": "PSSI",
+		"__v": 0,
+		"choice": [
+			"PERBASI",
+			"PRSI",
+			"PBSI",
+			"PSSI"
+		]
+	},
+	{
+		"_id": "59d62bf6117980188dbbd284",
+		"question": "Klub sepakbola yang ada di Jakarta?",
+		"answer": "Persija",
+		"__v": 0,
+		"choice": [
+			"Persib",
+			"Persija",
+			"PSM Makasar",
+			"Semen Padang"
+		]
+	}
+]

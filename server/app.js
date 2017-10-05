@@ -4,7 +4,9 @@ const logger     = require('morgan');
 const mongoose   = require('mongoose');
 const bodyParser = require('body-parser');
 const app = express();
-mongoose.connect('mongodb://localhost/bedekan',(err)=>{
+// mongoose.connect('mongodb://localhost/bedekan',(err)=>{
+mongoose.connect('mongodb://admin:123@cluster0-shard-00-00-jgxqq.mongodb.net:27017,cluster0-shard-00-01-jgxqq.mongodb.net:27017,cluster0-shard-00-02-jgxqq.mongodb.net:27017/bedekan?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin',(err)=>{
+
   if(!err){
     console.log('MONGOOSE CONNECTED');
   }else{
