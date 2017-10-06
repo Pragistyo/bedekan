@@ -7,22 +7,53 @@
       belum mulai
     </div>
     <div class="panel-body" v-else="start">
-      <h2>Pertanyaan nya mengapa why selalu always?</h2>
-      <a href="#" class="btn btn-default btn-lg btn-block">Option A</a>
-      <a href="#" class="btn btn-default btn-lg btn-block">Option B</a>
-      <a href="#" class="btn btn-default btn-lg btn-block">Option C</a>
-      <a href="#" class="btn btn-default btn-lg btn-block">Option D</a>
+      <h2>{{ pertanyaan.question }}</h2>
+      <ButtonChoice v-if="!freezeButton"
+      v-for="(choice, index) in pertanyaan.choice"
+      :key="index"
+      :value="choice"
+      @clickanswer="clickanswer" />
+
     </div>
   </div>
 </template>
 
 <script>
+import ButtonChoice from '@/components/Button'
+
 export default {
-  props: ['pertanyaan'],
+  props: ['pertanyaan', 'unfreeze'],
+  components: {
+    ButtonChoice
+  },
   data () {
     return {
-      start: true
+      start: true,
+      freezeButton: false
     }
+  },
+  methods: {
+    clickanswer (choice) {
+      // this.selected_answer = choice
+      if (this.pertanyaan.answer === choice) { // kalo bener
+        console.log('jawaban benar')
+        this.$emit('sendscore', 1)
+      } else { // kalo salah
+        console.log('jawaban salah')
+        this.$emit('sendscore', -1)
+        this.freezeButton = true
+      }
+    }
+  },
+  watch: {
+    pertanyaan (newPertanyaan) {
+      console.log('pertanyaan berubah')
+      this.freezeButton = false
+    }
+  },
+  mounted () {
+    console.log('jalanin mounted question')
+    // this.freezeButton = false
   }
 }
 </script>
